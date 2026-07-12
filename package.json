@@ -1,9 +1,11 @@
 {
-  "name": "@vhandelivery/source",
+  "name": "@tmdelivery/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
+    "build": "npx nx run front-b2b:build:production",
+    "vercel-build": "npx nx run front-b2b:build:production",
     "start:api-service": "npx prisma generate && npx prisma migrate dev && nx serve api-service",
     "start:api-service:prod": "NODE_ENV=production nx serve api-service",
     "test:api-service": "nx test api-service",
