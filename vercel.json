@@ -1,0 +1,10 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "buildCommand": "npx nx run front-b2b:build:production",
+  "outputDirectory": "dist/front-b2b/browser"
+}
