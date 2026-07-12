@@ -5,8 +5,8 @@
       "product": "Sản phẩm"
     },
     "shell": {
-      "brand": "SharkBee Store",
-      "subtitle": "Khám phá sản phẩm công khai và đặt hàng nhanh trên SharkBee Store.",
+      "brand": "SharkBoom Store",
+      "subtitle": "Khám phá sản phẩm công khai và đặt hàng nhanh trên SharkBoom Store.",
       "nav": {
         "products": "Sản phẩm",
         "cart": "Giỏ hàng"
@@ -52,7 +52,7 @@
       },
       "loadError": "Hiện không thể tải danh mục sản phẩm công khai.",
       "meta": {
-        "title": "SharkBee Store | Danh mục sản phẩm",
+        "title": "SharkBoom Store | Danh mục sản phẩm",
         "description": "Xem sản phẩm đã xuất bản từ các cửa hàng được duyệt, thêm vào giỏ và chuyển sang bước checkout xác thực khách hàng."
       }
     },
@@ -74,9 +74,9 @@
       "notFound": "Không tìm thấy sản phẩm.",
       "loadError": "Không thể tải chi tiết sản phẩm này.",
       "meta": {
-        "title": "SharkBee Store | Chi tiết sản phẩm",
-        "description": "Xem thông tin sản phẩm đang xuất bản, chọn số lượng và thêm vào giỏ hàng SharkBee.",
-        "productDescriptionFallback": "Xem chi tiết sản phẩm và thêm mặt hàng này vào giỏ hàng SharkBee."
+        "title": "SharkBoom Store | Chi tiết sản phẩm",
+        "description": "Xem thông tin sản phẩm đang xuất bản, chọn số lượng và thêm vào giỏ hàng SharkBoom.",
+        "productDescriptionFallback": "Xem chi tiết sản phẩm và thêm mặt hàng này vào giỏ hàng SharkBoom."
       }
     },
     "cart": {
@@ -124,7 +124,7 @@
         "checkout": "Hiện chưa thể tạo đơn hàng. Vui lòng thử lại sau."
       },
       "meta": {
-        "title": "SharkBee Store | Giỏ hàng và Checkout",
+        "title": "SharkBoom Store | Giỏ hàng và Checkout",
         "description": "Xem lại giỏ hàng, đăng nhập với vai trò khách hàng và gửi địa chỉ giao hàng để tạo đơn Task 3."
       }
     },
@@ -180,10 +180,10 @@
         "storefront": "storefront"
       },
       "meta": {
-        "loginTitle": "SharkBee Store | Đăng nhập khách hàng",
-        "registerTitle": "SharkBee Store | Tạo tài khoản khách hàng",
-        "loginDescription": "Đăng nhập bằng tài khoản khách hàng để tiếp tục checkout trên storefront SharkBee.",
-        "registerDescription": "Tạo tài khoản khách hàng để đặt đơn B2C từ storefront công khai của SharkBee."
+        "loginTitle": "SharkBoom Store | Đăng nhập khách hàng",
+        "registerTitle": "SharkBoom Store | Tạo tài khoản khách hàng",
+        "loginDescription": "Đăng nhập bằng tài khoản khách hàng để tiếp tục checkout trên storefront SharkBoom.",
+        "registerDescription": "Tạo tài khoản khách hàng để đặt đơn B2C từ storefront công khai của SharkBoom."
       }
     }
   }

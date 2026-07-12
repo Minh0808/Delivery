@@ -5,8 +5,8 @@
       "product": "Product"
     },
     "shell": {
-      "brand": "SharkBee Store",
-      "subtitle": "Browse public products and place orders quickly on SharkBee Store.",
+      "brand": "SharkBoom Store",
+      "subtitle": "Browse public products and place orders quickly on SharkBoom Store.",
       "nav": {
         "products": "Products",
         "cart": "Cart"
@@ -52,7 +52,7 @@
       },
       "loadError": "Unable to load the public product catalog right now.",
       "meta": {
-        "title": "SharkBee Store | Public Catalog",
+        "title": "SharkBoom Store | Public Catalog",
         "description": "Browse published products from approved merchants, add them to cart, and continue to authenticated checkout."
       }
     },
@@ -74,9 +74,9 @@
       "notFound": "Product not found.",
       "loadError": "Unable to load this product.",
       "meta": {
-        "title": "SharkBee Store | Product Details",
-        "description": "Inspect a published product, choose quantity, and add it to your SharkBee cart.",
-        "productDescriptionFallback": "View product details and add this item to your SharkBee cart."
+        "title": "SharkBoom Store | Product Details",
+        "description": "Inspect a published product, choose quantity, and add it to your SharkBoom cart.",
+        "productDescriptionFallback": "View product details and add this item to your SharkBoom cart."
       }
     },
     "cart": {
@@ -124,7 +124,7 @@
         "checkout": "Unable to place the order right now."
       },
       "meta": {
-        "title": "SharkBee Store | Cart and Checkout",
+        "title": "SharkBoom Store | Cart and Checkout",
         "description": "Review cart items, sign in as a customer, and submit delivery details to create a Task 3 order."
       }
     },
@@ -180,10 +180,10 @@
         "storefront": "the storefront"
       },
       "meta": {
-        "loginTitle": "SharkBee Store | Customer Login",
-        "registerTitle": "SharkBee Store | Create Customer Account",
-        "loginDescription": "Sign in with a customer account to continue checkout on the SharkBee storefront.",
-        "registerDescription": "Create a customer account to place B2C orders from the public SharkBee storefront."
+        "loginTitle": "SharkBoom Store | Customer Login",
+        "registerTitle": "SharkBoom Store | Create Customer Account",
+        "loginDescription": "Sign in with a customer account to continue checkout on the SharkBoom storefront.",
+        "registerDescription": "Create a customer account to place B2C orders from the public SharkBoom storefront."
       }
     }
   }

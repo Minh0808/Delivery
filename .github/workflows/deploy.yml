@@ -42,7 +42,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-#          cache: 'npm'
+      #          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci --prefer-offline --no-audit
@@ -62,12 +62,12 @@ jobs:
       - name: Build Frontend B2C
         run: npx nx build front-b2c --configuration=production
 
-#      - name: Upload build artifacts
-#        uses: actions/upload-artifact@v4
-#        with:
-#          name: dist
-#          path: dist/
-#          retention-days: 1
+  #      - name: Upload build artifacts
+  #        uses: actions/upload-artifact@v4
+  #        with:
+  #          name: dist
+  #          path: dist/
+  #          retention-days: 1
 
   # ===========================================================================
   # DEPLOY - Deploy to server via SSH
@@ -97,7 +97,7 @@ jobs:
             echo "=========================================="
 
             # Navigate to project directory
-            cd ~/sharkbee/VhanDelivery
+            cd ~/SharkBoom/VhanDelivery
 
             # Pull latest code
             echo "📥 Pulling latest code from main..."
@@ -142,7 +142,7 @@ jobs:
 
           echo "🔍 Verifying deployment..."
           # Add your domain health checks here
-          # curl -f https://portal.sharkbee.vn/api/health || exit 1
+          # curl -f https://portal.SharkBoom.vn/api/health || exit 1
 
           echo "✅ Deployment verification passed!"
 

@@ -11,7 +11,7 @@
     }
   },
   "menu": {
-    "vhanDelivery": "SharkBee"
+    "vhanDelivery": "SharkBoom"
   },
   "modal": {
     "logoutConfirmTitle": "Confirm Logout",
@@ -85,7 +85,7 @@
   },
   "app": {
     "title": {
-      "management": "SharkBee Management"
+      "management": "SharkBoom Management"
     }
   },
   "admin": {
@@ -137,7 +137,7 @@
     "footer": {
       "systemOnline": "System Online",
       "apiConnection": "API Connection",
-      "copyright": "© 2025 SharkBee. All rights reserved."
+      "copyright": "© 2025 SharkBoom. All rights reserved."
     },
     "common": {
       "search": "Search...",
@@ -451,7 +451,7 @@
       "welcome": "Hello! Welcome back",
       "notMember": "Not a member yet?",
       "joinMember": "Join member",
-      "emailPlaceholder": "sharkbee@vhanit.com",
+      "emailPlaceholder": "sharkboom@vhanit.com",
       "passwordPlaceholder": "Enter your password",
       "submit": "Continue",
       "google": "Sign in with Google",

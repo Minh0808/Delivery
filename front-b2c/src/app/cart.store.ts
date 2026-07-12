@@ -18,7 +18,7 @@ export interface CartLineItem {
 
 @Injectable({ providedIn: 'root' })
 export class CartStore {
-  private readonly storageKey = 'sharkbee-b2c-cart';
+  private readonly storageKey = 'sharkboom-b2c-cart';
   private readonly translationService = inject(TranslationService);
   readonly items = signal<CartLineItem[]>(this.read());
   readonly totalItems = computed(() =>

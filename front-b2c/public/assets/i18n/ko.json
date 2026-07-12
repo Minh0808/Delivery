@@ -5,8 +5,8 @@
       "product": "상품"
     },
     "shell": {
-      "brand": "SharkBee Store",
-      "subtitle": "SharkBee Store에서 공개 상품을 살펴보고 빠르게 주문해 보세요.",
+      "brand": "SharkBoom Store",
+      "subtitle": "SharkBoom Store에서 공개 상품을 살펴보고 빠르게 주문해 보세요.",
       "nav": {
         "products": "상품",
         "cart": "장바구니"
@@ -52,7 +52,7 @@
       },
       "loadError": "지금은 공개 상품 목록을 불러올 수 없습니다.",
       "meta": {
-        "title": "SharkBee Store | 공개 카탈로그",
+        "title": "SharkBoom Store | 공개 카탈로그",
         "description": "승인된 상점의 게시 상품을 둘러보고 장바구니에 담은 뒤 로그인하여 주문을 진행하세요."
       }
     },
@@ -74,9 +74,9 @@
       "notFound": "상품을 찾을 수 없습니다.",
       "loadError": "상품 상세 정보를 불러올 수 없습니다.",
       "meta": {
-        "title": "SharkBee Store | 상품 상세",
+        "title": "SharkBoom Store | 상품 상세",
         "description": "공개 상품의 상세 정보를 확인하고 수량을 선택한 뒤 장바구니에 담으세요.",
-        "productDescriptionFallback": "상품 상세 정보를 확인하고 SharkBee 장바구니에 추가하세요."
+        "productDescriptionFallback": "상품 상세 정보를 확인하고 SharkBoom 장바구니에 추가하세요."
       }
     },
     "cart": {
@@ -124,7 +124,7 @@
         "checkout": "지금은 주문을 생성할 수 없습니다."
       },
       "meta": {
-        "title": "SharkBee Store | 장바구니 및 체크아웃",
+        "title": "SharkBoom Store | 장바구니 및 체크아웃",
         "description": "장바구니를 검토하고 고객 로그인 후 배송 정보를 입력해 Task 3 주문을 생성하세요."
       }
     },
@@ -180,10 +180,10 @@
         "storefront": "스토어프런트"
       },
       "meta": {
-        "loginTitle": "SharkBee Store | 고객 로그인",
-        "registerTitle": "SharkBee Store | 고객 계정 만들기",
-        "loginDescription": "고객 계정으로 로그인하여 SharkBee 스토어프런트 체크아웃을 계속 진행하세요.",
-        "registerDescription": "공개 SharkBee 스토어프런트에서 주문하려면 고객 계정을 만드세요."
+        "loginTitle": "SharkBoom Store | 고객 로그인",
+        "registerTitle": "SharkBoom Store | 고객 계정 만들기",
+        "loginDescription": "고객 계정으로 로그인하여 SharkBoom 스토어프런트 체크아웃을 계속 진행하세요.",
+        "registerDescription": "공개 SharkBoom 스토어프런트에서 주문하려면 고객 계정을 만드세요."
       }
     }
   }

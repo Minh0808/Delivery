@@ -6,7 +6,7 @@ import { Request } from 'express';
 export class GoogleAuthGuard extends AuthGuard('google') {
   /**
    * Production domains from environment variable
-   * Format: comma-separated list of domains (e.g., "sharkbee.vn,vhandelivery.com")
+   * Format: comma-separated list of domains (e.g., "sharkboom.vn,vhandelivery.com")
    */
   private readonly productionDomains: string[] = (
     process.env['PRODUCTION_DOMAINS'] || ''
