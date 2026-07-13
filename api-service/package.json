@@ -3,8 +3,8 @@
   "private": true,
   "packageManager": "npm@10",
   "scripts": {
-    "build": "PRISMA_CLIENT_ENGINE_TYPE=binary npx prisma generate --schema=./prisma/schema.prisma && npx nx run api-service:build:production",
-    "vercel-build": "PRISMA_CLIENT_ENGINE_TYPE=binary npx prisma generate --schema=./prisma/schema.prisma && npx webpack-cli --config webpack.config.js --mode=production"
+    "build": "PRISMA_CLIENT_ENGINE_TYPE=binary npx prisma generate --schema=./prisma/schema.prisma && npx tsc -p tsconfig.build.json",
+    "vercel-build": "PRISMA_CLIENT_ENGINE_TYPE=binary npx prisma generate --schema=./prisma/schema.prisma && npx tsc -p tsconfig.build.json"
   },
   "prisma": {
     "schema": "./prisma/schema.prisma"
