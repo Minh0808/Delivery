@@ -4,8 +4,7 @@
   "packageManager": "npm@10",
   "scripts": {
     "build": "PRISMA_CLIENT_ENGINE_TYPE=binary npx prisma generate --schema=./prisma/schema.prisma && npx nx run api-service:build:production",
-    "vercel-build": "npm run build",
-    "postinstall": "npm install @prisma/client --no-save"
+    "vercel-build": "PRISMA_CLIENT_ENGINE_TYPE=binary npx prisma generate --schema=./prisma/schema.prisma && npx webpack-cli --config webpack.config.js --mode=production"
   },
   "prisma": {
     "schema": "./prisma/schema.prisma"
