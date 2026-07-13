@@ -4,7 +4,8 @@
   "packageManager": "npm@10",
   "scripts": {
     "build": "npx prisma generate --schema=../prisma/schema.prisma && npx nx run api-service:build:production",
-    "vercel-build": "npm run build"
+    "vercel-build": "npm run build",
+    "postinstall": "npm install @prisma/client"
   },
   "prisma": {
     "schema": "../prisma/schema.prisma"
@@ -25,7 +26,7 @@
     "@nestjs/platform-express": "^11.0.0",
     "@nestjs/terminus": "^11.0.0",
     "@prisma/adapter-pg": "^7.1.0",
-    "@prisma/client": "^7.1.0",
+    "@prisma/client": "^7.8.0",
     "axios": "^1.6.0",
     "bcrypt": "^6.0.0",
     "class-transformer": "^0.5.1",
