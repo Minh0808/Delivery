@@ -3,7 +3,11 @@
   "private": true,
   "packageManager": "npm@10",
   "scripts": {
-    "build": "npx prisma generate && npx nx run api-service:build:production"
+    "build": "npx prisma generate --schema=../prisma/schema.prisma && npx nx run api-service:build:production",
+    "vercel-build": "npm run build"
+  },
+  "prisma": {
+    "schema": "../prisma/schema.prisma"
   },
   "engines": {
     "node": "24.x",
