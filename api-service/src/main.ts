@@ -13,7 +13,7 @@ import { AppModule } from './app/app.module';
 import cookieParser from 'cookie-parser';
 import { AllExceptionsFilter } from './app/common/filters/http-exception.filter';
 
-async function bootstrap() {
+export async function createApp(options?: { listen?: boolean }) {
   const app = await NestFactory.create(AppModule);
   const globalPrefix = 'api';
   app.setGlobalPrefix(globalPrefix);
@@ -37,11 +37,18 @@ async function bootstrap() {
   // Global Serializer Interceptor - transforms entities and applies @Exclude()
   app.useGlobalInterceptors(new ClassSerializerInterceptor(app.get(Reflector)));
 
-  const port = process.env.PORT || 3000;
-  await app.listen(port, '0.0.0.0');
-  Logger.log(
-    `🚀 Application is running on: http://localhost:${port}/${globalPrefix}`
-  );
+  const shouldListen = options?.listen ?? true;
+  if (shouldListen) {
+    const port = process.env.PORT || 3000;
+    await app.listen(port, '0.0.0.0');
+    Logger.log(
+      `🚀 Application is running on: http://localhost:${port}/${globalPrefix}`
+    );
+  }
+
+  return app;
 }
 
-bootstrap();
+if (require.main === module) {
+  createApp();
+}

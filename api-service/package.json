@@ -1,0 +1,12 @@
+{
+  "name": "api-service",
+  "private": true,
+  "packageManager": "npm@10",
+  "scripts": {
+    "build": "npx prisma generate && npx nx run api-service:build:production"
+  },
+  "engines": {
+    "node": "^20.0.0",
+    "npm": ">=9"
+  }
+}
